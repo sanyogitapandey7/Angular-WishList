@@ -1,0 +1,5 @@
+<select [(ngModel)]="filterWishes" (ngModelChange)="updateFilter($event)">
+    <option value="0">All</option>
+    <option value="1">Fulfilled</option>
+    <option value="2">Unfulfilled</option>
+  </select>
